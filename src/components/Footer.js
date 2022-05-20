@@ -62,7 +62,13 @@ const Footer = () => {
         <button className="btn-req" type="button">
           Request Invite
         </button>
-        <p>© Easybank. All Rights Reserved</p>
+        <p>
+          © Easybank. Developed by
+          <a href="https://www.frontendmentor.io/profile/parvathyvd">
+            {" "}
+            Parvathy Vazhoor
+          </a>
+        </p>
       </div>
     </footer>
   );
